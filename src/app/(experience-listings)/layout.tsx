@@ -14,8 +14,8 @@ const Layout = ({ children }: { children: ReactNode }) => {
       {/* SECTION HERO */}
       <div className="container pt-10 pb-24 lg:pt-16 lg:pb-28">
         <SectionHeroArchivePage
-          currentPage="Experiences"
-          currentTab="Experiences"
+          currentPage="Service"
+          currentTab="Service"
           listingType={
             <>
               <i className="text-2xl las la-umbrella-beach"></i>

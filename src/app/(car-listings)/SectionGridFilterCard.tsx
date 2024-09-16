@@ -26,7 +26,7 @@ const SectionGridFilterCard: FC<SectionGridFilterCardProps> = ({
             In Bangalore, there are 24 car brands, over 223 models, and a wide variety of variants, 
             including electric cars with both manual and automatic transmissions​.
             <span className="mx-2">·</span>
-            Looking for the perfect car? Our personalized car finder helps you discover the best vehicle tailored to your needs. Whether you're after fuel efficiency, comfort, electric options, or specific budget preferences, we'll guide you through the top choices. Let us help you find the car that fits your lifestyle effortlessly!
+            Looking for the perfect car? Our personalized car finder helps you discover the best vehicle tailored to your needs. Whether you&apos;re after fuel efficiency, comfort, electric options, or specific budget preferences, we&apos;ll guide you through the top choices. Let us help you find the car that fits your lifestyle effortlessly!
           </span>
         }
       />

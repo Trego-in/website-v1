@@ -81,7 +81,7 @@ const Page = ({
        
         </p>
         <p>
-        When it comes to maintaining your car or bike, choosing between a brand-authorized service center and a local garage is a crucial decision that can significantly affect the performance, safety, and resale value of your vehicle. While local garages might offer tempting low-cost services, there are substantial benefits to choosing a brand-authorized service center. In this blog, we'll explore these benefits, understand the cost differences, and discuss additional perks, such as improved resale value. Plus, we'll highlight how platforms like Trego.in are revolutionizing the way customers connect with authorized service centers.
+        When it comes to maintaining your car or bike, choosing between a brand-authorized service center and a local garage is a crucial decision that can significantly affect the performance, safety, and resale value of your vehicle. While local garages might offer tempting low-cost services, there are substantial benefits to choosing a brand-authorized service center. In this blog, we&apos;ll explore these benefits, understand the cost differences, and discuss additional perks, such as improved resale value. Plus, we&apos;ll highlight how platforms like Trego.in are revolutionizing the way customers connect with authorized service centers.
 
           {/* <a href="/#" target="_blank" rel="noopener noreferrer">
             distribution of letters.

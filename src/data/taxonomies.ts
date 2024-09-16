@@ -21,7 +21,7 @@ const DEMO_TAGS: TaxonomyType[] = __taxonomies.map((item) => ({
 const DEMO_STAY_CATEGORIES: TaxonomyType[] = __stayTaxonomies.map((item) => ({
   ...item,
   taxonomy: "category",
-  listingType: "stay",
+  listingType: "Bikes",
   href: item.href as Route,
 }));
 //
@@ -29,7 +29,7 @@ const DEMO_EXPERIENCES_CATEGORIES: TaxonomyType[] = __experiencesTaxonomies.map(
   (item) => ({
     ...item,
     taxonomy: "category",
-    listingType: "experiences",
+    listingType: "Bikes",
     href: item.href as Route,
   })
 );

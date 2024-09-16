@@ -29,12 +29,12 @@ const Header3: FC<Header3Props> = ({ className = "" }) => {
   const [showHeroSearch, setShowHeroSearch] =
     useState<StaySearchFormFields | null>();
   //
-  const [currentTab, setCurrentTab] = useState<SearchTab>("Stays");
+  const [currentTab, setCurrentTab] = useState<SearchTab>("Service");
 
   //
   useOutsideAlerter(headerInnerRef, () => {
     setShowHeroSearch(null);
-    setCurrentTab("Stays");
+    setCurrentTab("Service");
   });
 
   let pathname = usePathname();
@@ -87,8 +87,7 @@ const Header3: FC<Header3Props> = ({ className = "" }) => {
         <div className={`w-full max-w-4xl mx-auto pb-6`}>
           <HeroSearchFormSmall
             defaultFieldFocus={showHeroSearch || undefined}
-            onTabChange={setCurrentTab}
-            defaultTab={currentTab}
+            onTabChange={(tab) => setCurrentTab(tab as SearchTab)}
           />
         </div>
       </div>
@@ -155,7 +154,7 @@ const Header3: FC<Header3Props> = ({ className = "" }) => {
           ${showHeroSearch ? "duration-75" : ""} 
           ${
             showHeroSearch
-              ? currentTab === "Cars" || currentTab === "Flights"
+              ? currentTab === "Cars" || currentTab === "Bikes"
                 ? "scale-y-[4.4]"
                 : "scale-y-[3.4]"
               : ""

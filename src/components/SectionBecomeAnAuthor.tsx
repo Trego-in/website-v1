@@ -27,7 +27,7 @@ const SectionBecomeAnAuthor: FC<SectionBecomeAnAuthorProps> = ({
         Choose us for a seamless experience: hassle-free buying, selling, 
         and servicing of your car or bike, all at authorized centers with offers & discounts. 
         Plus, with our satisfaction guarantee, 
-        your next service is free if you're not happy!
+        your next service is free if you&apos;re not happy!
         </span>
         <ButtonPrimary className="mt-6 sm:mt-11">
           Become an author
